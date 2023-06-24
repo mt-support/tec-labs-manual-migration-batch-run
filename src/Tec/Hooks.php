@@ -22,6 +22,7 @@
 
 namespace Tribe\Extensions\Manual_Batch_Upgrade_6;
 
+use TEC\Common\Contracts\Service_Provider;
 use TEC\Events\Custom_Tables\V1\Migration\State;
 use Tribe__Main as Common;
 
@@ -32,7 +33,7 @@ use Tribe__Main as Common;
  *
  * @package Tribe\Extensions\Manual_Batch_Upgrade_6;
  */
-class Hooks extends \tad_DI52_ServiceProvider {
+class Hooks extends Service_Provider {
 
 	/**
 	 * Binds and sets up implementations.

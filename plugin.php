@@ -4,7 +4,7 @@
  * Plugin URI:        @todo
  * GitHub Plugin URI: https://github.com/mt-support/tec-labs-manual-migration-batch-run
  * Description:       Adds a form to allow manually running a batch of events through migration to the 6.0 custom tables implementation. This sidesteps the Action Scheduler queue, in cases where Action Scheduler is not running the migration queue.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            The Events Calendar
  * Author URI:        https://evnt.is/1971
  * License:           GPL version 3 or any later version
